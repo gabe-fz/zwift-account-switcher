@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Zwift account switcher app icon</title>
+  <desc id="desc">Zwift's rounded white Z mark on orange, with one large solid blue user in the middle.</desc>
+
+  <rect width="1024" height="1024" rx="216" fill="#FF6B1A"/>
+
+  <!-- Zwift Z vector mark, scaled into the icon. -->
+  <path fill="#FFFFFF" transform="translate(140 859) scale(.36925 -.36925)"
+        d="m1461.1 626.301h-212.55l766.36 1252.609h-1701.762c-172.949 0-313.144-140.2-313.144-313.16 0-172.95 140.195-313.14 313.144-313.14h211.532l-479.473-783.739s-45.203-65.883-45.203-160.883c0-170.097 137.891-307.988 307.976-307.988h1153.12c172.95 0 313.15 140.211 313.15 313.16s-140.2 313.141-313.15 313.141"/>
+
+  <!-- One large account symbol in a blue complementary to the orange background. -->
+  <g fill="#005B8F">
+    <circle cx="512" cy="385" r="112"/>
+    <path d="M258 770v-28c0-134 99-202 254-202s254 68 254 202v28H258z"/>
+  </g>
+</svg>
