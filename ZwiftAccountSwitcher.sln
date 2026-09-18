@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{36FB0FBD-64A7-4633-A471-84E41F821F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZwiftAccountSwitcher.Core", "src\ZwiftAccountSwitcher.Core\ZwiftAccountSwitcher.Core.csproj", "{2FFCCD12-9FF4-463F-ABF5-2960DE4E247A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZwiftAccountSwitcher.Windows", "src\ZwiftAccountSwitcher.Windows\ZwiftAccountSwitcher.Windows.csproj", "{AE9BD9D4-80AC-47D7-9D47-1E106A3342DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZwiftAccountSwitcher.App", "src\ZwiftAccountSwitcher.App\ZwiftAccountSwitcher.App.csproj", "{086AB3BA-122B-45DE-86EE-8EADE7DF64ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{476EC65B-FC20-4F53-A85C-405F726EC4A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZwiftAccountSwitcher.Core.Tests", "tests\ZwiftAccountSwitcher.Core.Tests\ZwiftAccountSwitcher.Core.Tests.csproj", "{429B7C2B-A159-426C-8B27-34AE768C78B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZwiftAccountSwitcher.Windows.Tests", "tests\ZwiftAccountSwitcher.Windows.Tests\ZwiftAccountSwitcher.Windows.Tests.csproj", "{50CCFED3-34B9-46CB-A587-063E1B04EF3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FFCCD12-9FF4-463F-ABF5-2960DE4E247A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFCCD12-9FF4-463F-ABF5-2960DE4E247A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFCCD12-9FF4-463F-ABF5-2960DE4E247A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFCCD12-9FF4-463F-ABF5-2960DE4E247A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE9BD9D4-80AC-47D7-9D47-1E106A3342DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9BD9D4-80AC-47D7-9D47-1E106A3342DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9BD9D4-80AC-47D7-9D47-1E106A3342DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9BD9D4-80AC-47D7-9D47-1E106A3342DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086AB3BA-122B-45DE-86EE-8EADE7DF64ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086AB3BA-122B-45DE-86EE-8EADE7DF64ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086AB3BA-122B-45DE-86EE-8EADE7DF64ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086AB3BA-122B-45DE-86EE-8EADE7DF64ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429B7C2B-A159-426C-8B27-34AE768C78B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429B7C2B-A159-426C-8B27-34AE768C78B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429B7C2B-A159-426C-8B27-34AE768C78B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429B7C2B-A159-426C-8B27-34AE768C78B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CCFED3-34B9-46CB-A587-063E1B04EF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CCFED3-34B9-46CB-A587-063E1B04EF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CCFED3-34B9-46CB-A587-063E1B04EF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CCFED3-34B9-46CB-A587-063E1B04EF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FFCCD12-9FF4-463F-ABF5-2960DE4E247A} = {36FB0FBD-64A7-4633-A471-84E41F821F11}
+		{AE9BD9D4-80AC-47D7-9D47-1E106A3342DD} = {36FB0FBD-64A7-4633-A471-84E41F821F11}
+		{086AB3BA-122B-45DE-86EE-8EADE7DF64ED} = {36FB0FBD-64A7-4633-A471-84E41F821F11}
+		{429B7C2B-A159-426C-8B27-34AE768C78B7} = {476EC65B-FC20-4F53-A85C-405F726EC4A3}
+		{50CCFED3-34B9-46CB-A587-063E1B04EF3B} = {476EC65B-FC20-4F53-A85C-405F726EC4A3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ZwiftAccountSwitcher.Core\ZwiftAccountSwitcher.Core.csproj" />
+    <ProjectReference Include="..\ZwiftAccountSwitcher.Windows\ZwiftAccountSwitcher.Windows.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>ZwiftAccountSwitcher</AssemblyName>
+    <RootNamespace>ZwiftAccountSwitcher.App</RootNamespace>
+    <Product>Zwift Account Switcher</Product>
+    <ApplicationIcon>Assets\AppIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\AppIcon.ico" />
+  </ItemGroup>
+
+</Project>

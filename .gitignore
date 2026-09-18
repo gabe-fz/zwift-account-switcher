@@ -1,0 +1,19 @@
+# Local SDK/bootstrap
+.dotnet/
+.tools/
+
+# Build and IDE artifacts
+**/bin/
+**/obj/
+.vs/
+.idea/
+*.user
+*.suo
+TestResults/
+artifacts/
+publish/
+
+# Local runtime data and diagnostics
+*.log
+accounts.json
+accounts.json.*
