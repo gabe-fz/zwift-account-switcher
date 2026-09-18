@@ -54,4 +54,8 @@ The self-contained single-file x64 output is written to `artifacts\publish\win-x
 2. If the executable is no longer available, open **Credential Manager → Windows Credentials** and remove Generic Credentials labeled for Zwift Account Switcher.
 3. Delete the executable and `%LOCALAPPDATA%\ZwiftAccountSwitcher`.
 
+## License
+
+Licensed under the [MIT License](LICENSE).
+
 See [security](docs/security.md), [launcher control map](docs/launcher-control-map.md), and [manual validation](docs/manual-test.md).
